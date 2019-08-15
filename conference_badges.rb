@@ -18,9 +18,10 @@ def assign_rooms(name)
     return rooms_assigments
     
 def printer(attendees)
-  
-  
-  
-  
-
+  def batch_badge_creator(attendees)
+  new_list = []
+  attendees.each do |list| 
+     new_list.push("Hello, my name is #{list}.")
+  end
+  return new_list
 end
