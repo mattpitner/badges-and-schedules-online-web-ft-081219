@@ -14,8 +14,9 @@ def assign_rooms(name)
     rooms_assigments = []
       name.each_with_index  do |list, index| 
       rooms_assigments.push( "Hello, #{list}! You'll be assigned to room #{index + 1 }!")
-       return rooms_assigments
       end
+       return rooms_assigments
+     end
  
     
 def printer(attendees)
