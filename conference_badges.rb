@@ -17,11 +17,10 @@ def assign_rooms(name)
       end
     return rooms_assigments
     
-def printer ()
+def printer(attendees)
   
   
   
   
-      
-    end 
+
 end
