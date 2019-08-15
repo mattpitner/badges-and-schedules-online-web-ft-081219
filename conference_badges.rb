@@ -17,9 +17,7 @@ def assign_rooms(name)
       end
     return rooms_assigments
     
-    def printer()
-      
-      
-      
+    def printer(rooms_assigments)
+      puts rooms_assigments
     end 
 end
