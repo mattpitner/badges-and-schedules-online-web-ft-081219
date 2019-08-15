@@ -21,6 +21,7 @@ end
 
 
 def printer(attendees)
-puts  batch_badge_creator.join(" ")(attendees)
+  batch_badge_creator.each do |person|
+    puts person
 
 end
